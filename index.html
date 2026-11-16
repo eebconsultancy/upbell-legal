@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#08090D">
+  <meta name="description" content="Privacy Policy and Terms of Use for Upbell: Mission Alarm Clock by EEB Consultancy LLC.">
+  <title>Upbell — Legal</title>
+  <style>
+    :root {
+      --bg: #08090D;
+      --card: #101116;
+      --text: #F5F5F7;
+      --muted: #A0A0AA;
+      --border: #292A31;
+      --accent: #FF8A3D;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: min(100% - 48px, 1014px);
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 78px 0 48px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 25px 0 24px;
+      font-size: clamp(40px, 5vw, 66px);
+      font-weight: 750;
+      line-height: 1.08;
+      letter-spacing: -2.5px;
+    }
+
+    .intro {
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.7;
+      max-width: 760px;
+    }
+
+    main {
+      padding: 0 0 10px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      min-height: 250px;
+      padding: 34px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: inherit;
+      text-decoration: none;
+      transition: border-color .2s, transform .2s;
+    }
+
+    .card:hover,
+    .card:focus-visible {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .card:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    .card h2 {
+      margin: 0 0 15px;
+      font-size: 22px;
+      letter-spacing: -.5px;
+    }
+
+    .card p {
+      margin: 0 0 25px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .link {
+      margin-top: auto;
+      color: var(--accent);
+      font-weight: 650;
+      font-size: 15px;
+    }
+
+    footer {
+      margin-top: 0;
+      padding: 38px 0 80px;
+      border-top: 1px solid var(--border);
+      color: #85858F;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .container { width: min(100% - 36px, 1014px); }
+      header { padding: 58px 0 42px; }
+      h1 { letter-spacing: -1.5px; }
+      .intro { font-size: 16px; }
+      .cards { grid-template-columns: 1fr; gap: 16px; }
+      .card { min-height: 210px; padding: 26px; }
+      footer { padding-bottom: 45px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .card { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="eyebrow">LEGAL</div>
+      <h1>Upbell: Mission Alarm Clock</h1>
+      <p class="intro">
+        Legal documents for Upbell, including our
+        Privacy Policy and Terms of Use.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="cards">
+        <a class="card" href="privacy.html">
+          <h2>Privacy Policy</h2>
+          <p>
+            Learn how Upbell handles alarm settings,
+            microphone and camera permissions, sleep
+            information, and data stored on your device.
+          </p>
+          <span class="link">Read the Privacy Policy →</span>
+        </a>
+
+        <a class="card" href="terms.html">
+          <h2>Terms of Use</h2>
+          <p>
+            Review the terms governing your use of
+            Upbell, including alarm reliability,
+            wake-up missions, sleep features,
+            and user responsibilities.
+          </p>
+          <span class="link">Read the Terms of Use →</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 EEB Consultancy LLC. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
